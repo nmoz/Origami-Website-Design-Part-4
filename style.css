@@ -1,0 +1,225 @@
+/*importing the fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fce2e5;
+  position: relative;
+}
+
+a {
+  text-align: center;
+  color: black;
+}
+
+.grid img {
+  border: 3px rosybrown solid;
+  height: 200px;
+  border-radius: 40px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+/*title*/
+h1 {
+  font-family: "Cookie", cursive;
+  line-height: 0.1;
+}
+
+/*animal names*/
+h2 {
+  font-family: "Annie Use Your Telescope", cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*facts*/
+h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+/*links*/
+h4 {
+  font-family: "Indie Flower", cursive;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #bbd5f2;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.header img {
+  width: 170px;
+  height: 100%;
+}
+
+.home {
+  background: #cde7d3;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0px;
+  justify-content: flex-end;
+  border-bottom: 2px solid grey;
+}
+
+.home h1 {
+  color: #000;
+  font-size: 145px;
+  font-family: "Amatic SC", cursive;
+  margin-left: 20px;
+  margin-top: 330px;
+  display: inline-block;
+}
+
+.home h2 {
+  color: #000;
+  font-size: 40px;
+  font-family: "Annie Use Your Telescope", cursive;
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.menu {
+  margin-right: 30px;
+  padding: 0px;
+  margin-top: 25px;
+  justify-content: center;
+}
+
+.menu a {
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding: 10px;
+  border: 2px solid #fff;
+  margin-left: 30px;
+  background-color: #fff;
+}
+
+.menu a:hover {
+  background-color: #bbd5f2;
+}
+
+.introduction {
+  background-color: #cdd7df;
+  margin: 40px;
+  text-align: center;
+  margin-left: 340px;
+  margin-right: 15px;
+  position: absolute;
+  box-shadow: 20px 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+.instruction {
+  padding: 40px;
+}
+
+.instruction h1 {
+  font-family: "Annie Use Your Telescope", cursive;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.instruction p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.references {
+  background-color: #b9d6c8;
+  display: flex-horizontal;
+  width: 300px;
+  height: 1300px;
+  margin-top: 40px;
+  margin-left: 15px;
+  position: absolute;
+  text-align: center;
+  box-shadow: 10px 30px 15px rgba(0, 0, 0, 0.3);
+}
+
+.grid {
+  background-color: #e1caca;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 340px;
+  margin-top: 320px;
+  margin-right: 15px;
+  position: absolute;
+  box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  box-shadow: 20px 30px 15px rgba(0, 0, 0, 0.3);
+}
+
+.item:hover {
+  transform: scale(1.04);
+}
+
+.bookmark {
+  margin-top: 25px;
+}
+
+.bookmark img:hover {
+  opacity: 1;
+}
+
+.references h2 {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.bookmark h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: "Oswald", sans-serif;
+  opacity: 1;
+}
+
+.bookmark img {
+  width: 250px;
+  border: 1px solid #808080;
+  border-radius: 40px 0px 40px 0px;
+  opacity: 0.5;
+}
+
+.footer {
+  background-color: #fce2e5;
+  position: absolute;
+  margin-top: 2550px;
+  margin-left: 520px;
+}
+
+.footer h1 {
+  font-size: 50px;
+  padding: 20px;
+  margin: 0px;
+}
